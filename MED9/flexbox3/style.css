@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Parisienne&family=The+Nautigal:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Pacifico&family=Parisienne&family=The+Nautigal:wght@400;700&display=swap');
+
+body{
+	margin: 0;
+	font-family: Dancing Script;
+}
+
+
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-image: url("cat.jpg");
+	background-position: center;
+}
+
+header h1 {
+	padding: 30px;
+	background-color: rgb(255,255,255,0.6);
+	border-radius: 20px;
+
+}
+
+main {
+	background: linear-gradient(90deg, rgba(131,58,180,1) 5%, rgba(29,253,194,1) 47%, rgba(252,176,69,1) 89%);
+	padding: 100px;
+}
+
+main p{
+	column-count: 2;
+	color: white;
+	font-family: "Great Vibes";
+}
+
+#Schaltung{
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgreen;
+}
+
+#Schaltung ul li {
+	padding: 20px;
+	margin: 30px;
+	background-color: lightpink;
+}
+
+
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background-image: url(dog.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer p{
+	padding: 30px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20px;
+}
