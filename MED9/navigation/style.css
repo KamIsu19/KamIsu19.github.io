@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Pacifico&family=Parisienne&family=Raleway:ital,wght@0,100;1,400&family=The+Nautigal:wght@400;700&display=swap');
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: lightpink;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+}
+
+ul{
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	font-family: Dancing Script;
+}
+
+ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+}
+
+ul li a:hover {
+	background-color: lightblue;
+	color: white;
+}
