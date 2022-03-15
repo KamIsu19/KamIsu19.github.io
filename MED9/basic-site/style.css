@@ -1,0 +1,97 @@
+/*
+* Title: A website about Flowers
+* Author: Kamela Isufaj
+* Date: 15.3.2022
+*/
+
+/****************General Styles******************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+	margin: 0;
+}
+
+/*Navigation*/
+nav{
+	background-color: purple;
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	justify-content: space-between; /* To make space between logo and list */
+}
+
+nav img{
+	height: 150px;
+	border-radius: 50%;
+}
+
+nav ul{
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	font-family: Pacifico;
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	color: black;
+	background-color: white;
+	text-decoration: none; /* Removes the underline decoration of a link */
+	border-radius: 10px;
+	/* Shows the letters with all uppercase*/
+}
+
+/* Hover is used to make a nice effect if we put the mouse over the link */
+nav ul li a:hover {
+	/* Hover is used to make a nice effect if we put the mouse over the link */
+	background-color: black;
+	color: white;
+}
+
+/* Header */
+
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* How to use background image */
+	background-image: url("header-background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border-radius: 20px;
+}
+/* Footer */
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background: linear-gradient(90deg, rgba(204,219,11,1) 45%, rgba(34,204,151,1) 61%);
+}
+
+footer p{
+	font-size: 30px;
+	color: white;
+	font-family: Courgette;
+}
+
+/* Sections */
+
+section{
+	padding: 50px;
+	background-color: lightblue;
+	
+}
