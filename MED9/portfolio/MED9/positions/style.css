@@ -1,0 +1,17 @@
+* {
+	border: 1px solid black;
+	margin: 5px;
+	padding: 90px;
+}
+
+p{
+	background-color: lightblue;
+	position: fixed;
+	left: 100px;
+	top: 100px;
+	z-index: -10;
+}
+
+header{
+	background-color: lightpink;
+}
